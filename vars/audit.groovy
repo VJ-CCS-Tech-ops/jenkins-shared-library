@@ -1,5 +1,3 @@
-import groovyjarjarpicocli.CommandLine
-
 def call() {
     node {
         sh '''
