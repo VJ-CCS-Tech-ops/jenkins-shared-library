@@ -1,7 +1,3 @@
 def call() {
-    node {
-        sh '''
-            git version 
-            '''
-    }
+    sh 'git version'
 }
